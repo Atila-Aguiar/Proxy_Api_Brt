@@ -16,6 +16,6 @@ app.get('/', async (req, res) => {
     res.json(onibus_linhas_importantes);
 });
 
-app.listen(5000, () => {
+app.listen(process.env.PORT || 5000, () => {
   console.log('Servidor rodando na porta 5000');
 });
