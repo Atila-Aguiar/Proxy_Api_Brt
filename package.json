@@ -6,7 +6,7 @@
     "vercel": "^36.0.0"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "echo 'No TypeScript build needed' && exit 0",
     "start": "node app.js"
   }
 }
